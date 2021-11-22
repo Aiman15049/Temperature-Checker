@@ -1,0 +1,6 @@
+<% if !@final_output_location %>
+  <h2>Error, invalid postcode</h2>
+<% else %>
+  <h2> The Temperature for <%= @final_output_location %> is currently <%= @final_output %>°C</h2>
+  <h1>It is <%= @final_temperature_status %></h1>
+<% end %>
