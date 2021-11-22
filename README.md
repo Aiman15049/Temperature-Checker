@@ -14,3 +14,7 @@
 
 - `$ rubocop`
 - `$ rspec`
+
+### What I would do with more timee
+
+- add tests for such a basic post request that doesnt even have a model to stub.
