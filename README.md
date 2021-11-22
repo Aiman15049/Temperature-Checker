@@ -1,24 +1,16 @@
-# README
+### Getting up and running
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ - `$ git clone https://github.com/Aiman15049/temperature-checker`
+ - `$ cd weather`
+ - `$ bundle`
+ - `$ rails server`
+ - Head to 'localhost:3000/'
 
-Things you may want to cover:
+### Features and how to use the app
+- Search your desired UK postcode in the search bar provided on the top right side of the nav bar.
+- Only accepts UK potcodese.
 
-* Ruby version
+### Running tests and linters
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `$ rubocop`
+- `$ rspec`
